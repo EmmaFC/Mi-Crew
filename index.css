@@ -67,7 +67,7 @@ footer {
 
     header {
         margin-bottom: 3%;
-        padding: 2% !important;
+        padding: 2% 0 !important;
     }
 
     #logo_codecows {
@@ -87,7 +87,7 @@ footer {
     .members {
         padding:2%;
         display:flex;
-        flex-flow: column;
+        text-align: center;
         justify-content: center;
     }
 
