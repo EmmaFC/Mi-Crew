@@ -21,6 +21,7 @@ main {
     justify-content: center;
     flex-flow: column;
     text-align: center;
+    margin:auto;
     width: 100%; 
 }
 
@@ -46,7 +47,6 @@ header {
     background-color: #c2c2c2a8;
     display:flex;
     margin:auto;
-    flex-flow: column wrap;
     justify-content: center;
     text-align: center;
     width:100%;
@@ -93,14 +93,15 @@ footer {
 
     .members {
         padding:2%;
+        display:flex;
+        flex-flow: column;
+        justify-content: center;
     }
 
     .members-images {
-        width:80vw;
-        display:flex;
-        margin:auto;
+       display:flex;
+       flex-flow: row wrap;
         justify-content: center;
-        text-align: center;
     }
 
     .imagen {
