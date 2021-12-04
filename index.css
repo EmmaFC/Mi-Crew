@@ -17,11 +17,6 @@ body {
 }
 
 main {
-    display:flex;
-    justify-content: center;
-    flex-flow: column;
-    text-align: center;
-    margin:auto;
     width: 100%; 
 }
 
