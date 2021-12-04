@@ -19,14 +19,16 @@ body {
 main {
     display:flex;
     justify-content: center;
-    flex-flow: row wrap;
-    margin: auto, 0%;
+    text-align: center;
+
+    margin: auto;
     width: 100%; 
 }
 
 header {
     display: flex;
     justify-content: center;
+    flex-flow: column wrap;
     align-items: center;
     margin:0;
     padding:0;
@@ -44,6 +46,7 @@ header {
     background-color: #c2c2c2a8;
     display:flex;
     margin:auto;
+    flex-flow: row wrap;
     justify-content: center;
     text-align: center;
     align-items: center;
