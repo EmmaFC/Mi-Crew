@@ -2,7 +2,7 @@
 
 ![alt text](https://i.ibb.co/BrQhmnK/log3.png)
 
-
+```diff
  * @@ Introducción // Introduction @@
 
     Este es un proyecto de clase que consistía en crear una interfaz sencilla de web donde mostrar la información a cerca de nuestro equipo de estudiantes "Code Cows" y sus miembros. También hemos incluido una sección donde mostramos las herramientas que hemos utlizado para crear este sitio web.
@@ -53,10 +53,5 @@
     - Sara González
     - Emma Fernández
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+
 ```
