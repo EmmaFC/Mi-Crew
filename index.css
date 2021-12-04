@@ -28,7 +28,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     margin:0;
     padding:0;
     background-color: #c2c2c2b9; 
@@ -37,8 +36,8 @@ header {
 
 .codecows_info {
     display:flex;
-    flex-direction: column;
- 
+    flex-flow: column wrap;
+    text-align: center;
 }
 
 .members {
@@ -74,7 +73,7 @@ footer {
     }
 
     #logo_codecows {
-        height:12vw;
+        height:50px;
     }
 
     h1 {
