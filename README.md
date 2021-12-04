@@ -1,6 +1,6 @@
 # MY CREW
 
-![alt text](https://i.ibb.co/BrQhmnK/log3.png)
+![alt text](https://i.ibb.co/BrQhmnK/log3.pngstyle=centerme)
 
 
  * ### Introducción // Introduction
