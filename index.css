@@ -30,8 +30,6 @@ header {
 }
 
 .codecows_info {
-    justify-content: center;
-    flex-direction: column;
     width: 80vw;
 }
 
