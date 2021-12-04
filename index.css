@@ -82,7 +82,10 @@ footer {
         padding: 1.5% 0% 1.9% 0%;
     }
 
- /* a */
+    #logo_codecows {
+        width: 12vw;
+    }
+ 
     h1 {
         font-size: 2.3em;
         margin:3%;
@@ -145,10 +148,10 @@ footer {
         width:100%;
     }
 
-   /*  .codecows_info img {
+    #logo_codecows {
         width: 6vw;
     }
- */
+
     h1 {
         font-size: 2.8vw ;
         margin:3%;
@@ -199,7 +202,7 @@ footer {
 
 @media only screen and (max-width:569px) {
 
-    .codecows_info img {
+    #logo_codecows {
         width:4vw;
     }
 
