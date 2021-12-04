@@ -74,7 +74,7 @@ footer {
     }
 
     .codecows_info {
-        width: 12vw;
+        width: 8vw;
     }
 
     #logo_codecows {
@@ -82,12 +82,12 @@ footer {
     }
 
     h1 {
-        font-size: 1.5em ;
+        font-size: 1.8em ;
         margin:3%;
     }
 
     h2 {
-        font-size: 1.15em;
+        font-size: 1.45em;
         margin:0;
     }
 
