@@ -18,20 +18,20 @@ body {
 
 main {
     display:flex;
-    flex-direction: column;
     justify-content: center;
-    margin: auto;
+  
     text-align: center;
+  
     width: 100%; 
 }
 
 header {
-    background-color: #c2c2c2b9;
     display: flex;
     justify-content: center;
     align-items: center;
     margin:0;
     padding: 0;
+ 
     width: 100%;
 }
 
@@ -45,7 +45,7 @@ header {
     background-color: #c2c2c2a8;
     display:flex;
     margin:auto;
-
+    flex-flow: row wrap;
     justify-content: center;
     text-align: center;
     width:100%;
@@ -95,15 +95,10 @@ footer {
     }
 
     .members-images {
-        display:flex;
-        justify-content: center;
-        margin:auto;
         width:80vw;
     }
 
     .imagen {
-        display:flex;
-        flex-flow: row wrap;
         width:28vw;
         margin: 1.5vw;
     }
@@ -205,7 +200,7 @@ footer {
         width:100%;
     }
     #logo_codecows {
-        height:14vw;
+        height:12vw;
     }
 
     h1 {
