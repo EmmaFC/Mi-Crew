@@ -9,9 +9,6 @@ html {
     background-size:cover;
     overflow-x: hidden;
 }
-h1, h2 {
-    margin:0;
-}
 
 body { 
    overflow-x: hidden ;
