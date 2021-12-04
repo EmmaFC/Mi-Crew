@@ -79,6 +79,7 @@ footer {
     header {
         margin-bottom: 3%;
         padding: 1.5% 0% 1.9% 0%;
+        padding:0;
     }
 
     #logo_codecows {
