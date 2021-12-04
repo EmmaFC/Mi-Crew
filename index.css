@@ -92,10 +92,10 @@ footer {
     }
 
     .members-images {
-       display:flex;
-       flex-flow: row wrap;
+        display:flex;
+        flex-flow: row wrap;
         justify-content: center;
-        width: 80% !important;
+        max-width:80vw;
     }
 
     .imagen {
