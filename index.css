@@ -96,7 +96,7 @@ footer {
     }
 
     .members-images {
-        width:80vw;
+        width:60vw;
         display:flex;
         margin:auto;
         flex-flow: row wrap;
