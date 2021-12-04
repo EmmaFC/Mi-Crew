@@ -39,7 +39,6 @@ header {
     display:flex;
     flex-direction: column;
     text-align: center;
-    width:100%;
 }
 
 .members {
@@ -86,7 +85,6 @@ footer {
     h2 {
         font-size: 1.5em;
         margin:0;
-        width:100%;
     }
 
     .members {
