@@ -19,13 +19,13 @@ body {
 main {
     display:flex;
     justify-content: center;
-  
+    flex-direction: column;
     text-align: center;
-  
     width: 100%; 
 }
 
 header {
+    background-color: #c2c2c2a8;
     display: flex;
     justify-content: center;
     align-items: center;
