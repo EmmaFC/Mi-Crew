@@ -21,6 +21,7 @@ header {
     justify-content: center;
     align-items: center;
     margin:0;
+    padding:0;
     background-color: #c2c2c2b9; 
     width: 100%;
 }
@@ -73,7 +74,7 @@ footer {
     }
 
     .codecows_info {
-        width: 14vw;
+        width: 12vw;
     }
 
     #logo_codecows {
