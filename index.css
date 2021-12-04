@@ -20,8 +20,8 @@ main {
     display:flex;
     justify-content: center;
     text-align: center;
-
-    margin: auto;
+    flex-flow: row wrap;
+    margin: auto auto;
     width: 100%; 
 }
 
@@ -79,8 +79,8 @@ footer {
     }
 
     .codecows_info {
-        height:22vw;
-        width: 12 vw;
+        height: 22vw;
+        width: 12vw;
     }
 
     h1 {
