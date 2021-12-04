@@ -67,8 +67,9 @@ footer {
     }
 
     #logo_codecows {
-        display:block;
-        margin:0 auto;
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
         width: 5vw;
         text-align: center;
     }
@@ -146,9 +147,9 @@ footer {
 
     #logo_codecows {
         display:flex;
+        flex-flow: row wrap;
         justify-content: center;
-        margin:0 auto;
-        width: 12vw;
+        width: 5vw;
         text-align: center;
     }
 
@@ -208,11 +209,11 @@ footer {
         width:100%;
     }
     #logo_codecows {
-        text-align: center;
         display:flex;
+        flex-flow: row wrap;
         justify-content: center;
-        margin:0 auto;
-        height:12vw;
+        width: 5vw;
+        text-align: center;
     }
 
     h1 {
