@@ -44,7 +44,7 @@ main {
 .members {
     background-color: #c2c2c2a8;
     display:flex;
-    justify-content: center;
+    flex-direction: column;
     width:100%;
 }
 
