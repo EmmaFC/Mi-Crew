@@ -16,19 +16,11 @@ body {
    width: 100%;
 }
 
-/* main {
-    width: 100%; 
-    text-align: center;
-
-} */
-
 header {
     background-color: #c2c2c2a8;
-
     display: flex;
     justify-content: center;
     width: 100%;
-    height:auto;
 }
 
 .codecows_info {
