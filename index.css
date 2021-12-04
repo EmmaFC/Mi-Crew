@@ -73,21 +73,21 @@ footer {
     }
 
     #logo_codecows {
-        width: 9vw;
+        width: 5vw;
     }
  
     h1 {
-        font-size: 2.3em;
+        font-size: 2em;
         margin:3%;
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin:0;
     }
 
     .members {
-        width: 80vw;
+        width: 60vw;
         padding:2%;
         display:flex;
         flex-flow: column;
