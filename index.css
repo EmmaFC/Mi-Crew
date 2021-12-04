@@ -81,7 +81,7 @@ footer {
     }
  
     h1 {
-        font-size: 2em;
+        font-size: 2.3em;
         margin:3%;
     }
 
@@ -96,14 +96,14 @@ footer {
 
     .members-images {
         display:flex;
-        flex-flow: column wrap;
         justify-content: center;
         margin:auto;
-        text-align:center;
         width:80vw;
     }
 
     .imagen {
+        display:flex;
+        flex-flow: row wrap;
         width:28vw;
         margin: 1.5vw;
     }
@@ -165,7 +165,7 @@ footer {
 
     .members-images {
         display:flex;
-        flex-direction: column;
+        flex-flow: column;
         justify-content: center;
         max-width:80vw;
     }
