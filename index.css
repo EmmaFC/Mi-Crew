@@ -87,7 +87,7 @@ footer {
     }
 
     .members {
-        width: 80%;
+        width: 80vw;
         padding:2%;
         display:flex;
         flex-flow: column;
@@ -98,7 +98,7 @@ footer {
        display:flex;
        flex-flow: row wrap;
         justify-content: center;
-        width: 100%;
+        width: 80vw;
     }
 
     .imagen {
