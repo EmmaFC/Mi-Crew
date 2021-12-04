@@ -19,6 +19,7 @@ body {
    overflow-x: hidden ;
    margin: 0;
    width: 100%;
+   height: 100%;
 }
 
 header {
@@ -26,6 +27,7 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: auto;
 }
 
 .codecows_info {
