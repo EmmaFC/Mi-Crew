@@ -18,20 +18,20 @@ body {
 
 main {
     display:flex;
+    flex-direction: column;
     justify-content: center;
     margin: auto;
     text-align: center;
-    flex-direction: column;
     width: 100%; 
 }
 
 header {
+    background-color: #c2c2c2b9;
     display: flex;
     justify-content: center;
     align-items: center;
     margin:0;
     padding: 0;
-    background-color: #c2c2c2b9; 
     width: 100%;
 }
 
@@ -45,7 +45,7 @@ header {
     background-color: #c2c2c2a8;
     display:flex;
     margin:auto;
-    flex-flow: row wrap;
+
     justify-content: center;
     text-align: center;
     width:100%;
@@ -95,6 +95,8 @@ footer {
     }
 
     .members-images {
+        display:flex;
+        flex-flow: row wrap;
         width:80vw;
     }
 
