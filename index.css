@@ -78,8 +78,7 @@ footer {
 
     header {
         margin-bottom: 3%;
-        padding: 1.5% 0% 1.9% 0%;
-        padding:0;
+        padding: 1.5%;
     }
 
     #logo_codecows {
@@ -149,7 +148,7 @@ footer {
     }
 
     #logo_codecows {
-        width: 6vw;
+        width: 10vw;
     }
 
     h1 {
@@ -203,7 +202,7 @@ footer {
 @media only screen and (max-width:569px) {
 
     #logo_codecows {
-        width:4vw;
+        width:13vw;
     }
 
     h1 {
