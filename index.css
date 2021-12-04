@@ -29,6 +29,7 @@ header {
 }
 
 .codecows_info {
+    display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
@@ -40,7 +41,7 @@ header {
     margin:auto;
     justify-content: center;
     text-align: center;
-    width:100%;
+
 }
 
 .bg_color_logos {
@@ -83,7 +84,7 @@ footer {
     }
 
     .members {
-        width: 60vw;
+        width:80vw;
         padding:2%;
         display:flex;
         flex-flow: column;
