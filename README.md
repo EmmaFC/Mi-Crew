@@ -1,6 +1,6 @@
 ## MY CREW
 
-    ![alt text](https://i.ibb.co/BrQhmnK/log3.png)
+![alt text](https://i.ibb.co/BrQhmnK/log3.png)
 
 
  * @@ Introducción // Introduction @@
@@ -54,3 +54,9 @@
     - Emma Fernández
 
 ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
