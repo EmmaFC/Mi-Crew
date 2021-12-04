@@ -147,7 +147,7 @@ footer {
     }
 
     .codecows_info img {
-        width: 14vw;
+        width: 6vw;
     }
 
     h1 {
@@ -201,7 +201,7 @@ footer {
 @media only screen and (max-width:569px) {
 
     .codecows_info img {
-        height:10vw;
+        width:4vw;
     }
 
     h1 {
