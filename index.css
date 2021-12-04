@@ -1,50 +1,218 @@
-html{ 
-   background-image:url("https://i.ibb.co/PYBmgQD/fondo-web-codecows.jpg");
-   margin:0px;
-   padding: 0px;
-}
-.bg_color_header{
-    background-color: #c2c2c2;
-    height: 280px;
-    width: 2900px;
-}
-.encabezado{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1350px;
-}
-.bg_color_main{
-    background-color: #c2c2c2;
-    height: 1000px;
-    width: 2900px;
-}
-.imagen{
-    justify-content:center;
-    align-items: center;
-    height: 800px;
-    margin: 50px 800px 50px 800px;
-   
- 
-}
-.bg_color_logos{
-    background-color: #939393;
-    height: 130px;
-    width: 2850px;
-    padding: 0px 25px 25px 25px;  
-    text-align: center;    
-}
-.bg_color_footer{
-    background-color: #a3a3a3;
-    height: 70px;
-    width: 2900px;
-}
-.footer{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-left: 1350px;
-    padding-top: 10px;
+html {
+    background-image: url("./assets/img/bgweb-codecows.jpg") ;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    -o-background-size: cover;
+    background-size:cover;
+    overflow-x: hidden;
 }
 
+body { 
+   overflow-x: hidden ;
+   margin: 0;
+   width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    background-color: #c2c2c2b9; 
+    width: 100%;
+}
+
+main {
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: auto, 0%;
+    width: 100%; 
+}
+
+.codecows_info {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.members {
+    background-color: #c2c2c2a8;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.bg_color_logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #585858;
+    width:100%;
+}
+
+footer {
+    padding: 2%;
+    background-attachment: bottom;
+    background-color: #a3a3a3a4;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width:1030px) {
+
+    header {
+        margin-bottom: 3%;
+        padding: 1.5% 0% 1.9% 0%;
+    }
+
+    .codecows_info {
+        width: 14vw;
+    }
+
+    #logo_codecows {
+        height:7vw;
+    }
+
+    h1 {
+        font-size: 1.5em ;
+        margin:3%;
+    }
+
+    h2 {
+        font-size: 1.15em;
+        margin:0;
+    }
+
+    .members {
+        padding:2%;
+    }
+
+    .members-images {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width:80vw;
+    }
+
+    .imagen {
+        width:28vw;
+        margin: 1.5vw;
+    }
+
+    .bg_color_logos {
+        height: 5vw;
+        padding:2%;  
+        margin-top: 3%;
+    }
+
+    .tool_logos img {     
+        height: 7vw; 
+    }
+
+    footer {  
+        margin-top: 3%;
+        background-attachment: bottom;
+        padding: 2%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        height: 4vw;
+    }
+
+    h3 {
+        font-size: 1.8vw;
+        margin:0;
+    }
+}
+
+@media only screen and (max-width:1029px) {
+
+    header {
+        margin-bottom: 5%;
+        padding:4%;
+        width:100%;
+    }
+
+    .codecows_info {
+        width: 24vw;
+    }
+
+    #logo_codecows {
+        height:12vw;
+    }
+
+    h1 {
+        font-size: 2.8vw ;
+        margin:3%;
+    }
+
+    h2 {
+        font-size: 2.5vw;
+        margin:0;
+    }
+
+    .members {
+        padding:5% 0%;  
+    }
+
+    .members-images {
+        display:flex;
+        flex-flow: column;
+        justify-content: center;
+        max-width:80vw;
+    }
+
+    .imagen { 
+          width: 75vw;
+          margin: 1.5vw;
+    }
+
+    .bg_color_logos {
+        width:100%;
+        height: 10vw;
+        padding:2%;  
+        margin-top: 5%;
+    }
+
+    .tool_logos img {
+        height: 12vw;
+    }
+
+    footer {
+        margin-top: 5%;
+        width:100%;
+    }
+
+    h3 {
+        font-size: 3vw;
+        margin:0;
+    }
+}
+
+@media only screen and (max-width:569px) {
+
+    #logo_codecows {
+        height:20vw;
+    }
+
+    h1 {
+        font-size: 3vw ;
+        margin:3%;
+    }
+
+    h2 {
+        font-size: 2.9vw;
+        margin:0;
+    }
+}
 
