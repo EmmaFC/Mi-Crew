@@ -87,7 +87,7 @@ footer {
     }
 
     .members {
-        padding:2%;
+        padding:2% 0;
         display:flex;
         text-align: center;
         margin: auto;
@@ -97,6 +97,7 @@ footer {
     .members-images {
         display:flex;
         flex-flow: row wrap;
+        text-align: center;
         justify-content: center;
         max-width:80vw;
     }
