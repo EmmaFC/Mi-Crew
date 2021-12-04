@@ -43,6 +43,7 @@ header {
 .members {
     background-color: #c2c2c2a8;
     display:flex;
+    margin:auto;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -74,7 +75,7 @@ footer {
         padding: 1.5% 0% 1.9% 0%;
     }
 
-    #logo_codecows {
+    .codecows_info {
         height:22vw;
         width: 12 vw;
     }
@@ -146,7 +147,7 @@ footer {
         width: 24vw;
     }
 
-    #logo_codecows {
+    .codecows_info {
         height:12vw;
     }
 
@@ -200,7 +201,7 @@ footer {
 
 @media only screen and (max-width:569px) {
 
-    #logo_codecows {
+    .codecows_info {
         height:20vw;
     }
 
