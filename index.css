@@ -24,7 +24,6 @@ header {
     background-color: #c2c2c2a8;
     display: flex;
     justify-content: center;
- 
     width: 100%;
 }
 
@@ -72,6 +71,7 @@ footer {
 
     #logo_codecows {
         width: 5vw;
+        text-align: center;
     }
  
     h1 {
@@ -88,6 +88,7 @@ footer {
         padding:2%;
         display:flex;
         text-align: center;
+        margin: auto;
         justify-content: center;
     }
 
@@ -144,7 +145,8 @@ footer {
     }
 
     #logo_codecows {
-        height: 12vw;
+        width: 12vw;
+        text-align: center;
     }
 
     h1 {
@@ -203,6 +205,7 @@ footer {
         width:100%;
     }
     #logo_codecows {
+        text-align: center;
         height:12vw;
     }
 
