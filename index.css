@@ -24,15 +24,11 @@ header {
     background-color: #c2c2c2a8;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin:0;
-    padding: 0;
  
     width: 100%;
 }
 
 .codecows_info {
-    display:flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
