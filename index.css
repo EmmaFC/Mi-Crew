@@ -41,6 +41,7 @@ header {
     margin:auto;
     justify-content: center;
     text-align: center;
+    width: 100%;
 
 }
 
@@ -84,7 +85,6 @@ footer {
     }
 
     .members {
-        width:80vw;
         padding:2%;
         display:flex;
         flex-flow: column;
@@ -95,7 +95,7 @@ footer {
        display:flex;
        flex-flow: row wrap;
         justify-content: center;
-        width: 80vw;
+        width: 80% !important;
     }
 
     .imagen {
