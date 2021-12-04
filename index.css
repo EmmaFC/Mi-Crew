@@ -70,6 +70,9 @@ footer {
     }
 
     #logo_codecows {
+        display:flex;
+        justify-content: center;
+        margin:auto;
         width: 5vw;
         text-align: center;
     }
@@ -148,6 +151,9 @@ footer {
     }
 
     #logo_codecows {
+        display:flex;
+        justify-content: center;
+        margin:auto;
         width: 12vw;
         text-align: center;
     }
@@ -211,6 +217,9 @@ footer {
     }
     #logo_codecows {
         text-align: center;
+        display:flex;
+        justify-content: center;
+        margin:auto;
         height:12vw;
     }
 
