@@ -96,6 +96,11 @@ footer {
 
     .members-images {
         width:80vw;
+        display:flex;
+        margin:auto;
+        flex-flow: row wrap;
+        justify-content: center;
+        text-align: center;
     }
 
     .imagen {
