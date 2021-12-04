@@ -96,11 +96,15 @@ footer {
 
     .members-images {
         display:flex;
-        flex-flow: row wrap;
+        justify-content: center;
+        margin:auto;
+        text-align:center;
         width:80vw;
     }
 
     .imagen {
+        display:flex;
+        flex-flow: row wrap;
         width:28vw;
         margin: 1.5vw;
     }
