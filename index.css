@@ -33,6 +33,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: 80%;
 }
 
 .members {
