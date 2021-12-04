@@ -96,7 +96,7 @@ footer {
 
     .members-images {
         display:flex;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
         justify-content: center;
         margin:auto;
         text-align:center;
@@ -165,7 +165,7 @@ footer {
 
     .members-images {
         display:flex;
-        flex-flow: column;
+        flex-direction: column;
         justify-content: center;
         max-width:80vw;
     }
